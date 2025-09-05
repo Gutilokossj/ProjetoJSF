@@ -14,17 +14,13 @@ import javax.faces.context.FacesContext;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author paulohenrique
- */
 
 @Getter
 @Setter
 @ViewScoped
 @ManagedBean
 public class BeanController {
-    private String name = "Paulo Henrique";
+    private String name = "Gustavo Fernandes";
     private List<String> listNames = new ArrayList<>();
     private String message = "";
 
